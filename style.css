@@ -8,9 +8,8 @@ body{
 --primary-color:#F72D00;
 }
 
-.navbar ul li a{
-    display: inline;
-    text-decoration: none;
+ul{
+    list-style: none;
 }
 
 h1{
