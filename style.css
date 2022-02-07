@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,10 +13,25 @@ body{
 --primary-color:#F72D00;
 }
 
+/*styling menu*/
+
 ul{
     list-style: none;
 }
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+}
+.logo{
+    color: white;
+}
 
-h1{
-    color: var(--primary-color);
+.navigation .links{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    display: inline;
+    padding: 0rem 1rem;
 }
