@@ -78,29 +78,27 @@ span {
 }
 
 
-/*Home Section*/
+/*Homepage Style*/
 
-/* .home {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 840px;
-    justify-content: center;
-    align-items: center;
-}
-
-.home::before {
-    content: "";
+.homepage{
     position: absolute;
-    top: 0;
-    right: 0;
-    background: url("images/abhi2.svg") no-repeat center center/cover;
-    height: 900px;
-    width: 100%;
-    z-index: -1;
-    opacity: .8;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
 }
 
-.main{
-    display: flex;
-} */
+h1{
+ color: white;
+ margin: 20px 0px 20px;
+ font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: var(--primary-color);
+    letter-spacing: 2px;
+}
