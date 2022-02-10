@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,25 +14,29 @@ body{
 --primary-color:#F72D00;
 }
 
-/*styling menu*/
+/*Navbar*/
 
+
+.navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    
+}
 ul{
     list-style: none;
 }
-.navbar{
-    background-color: var(--primary-color);
-    color: white;
-}
-.logo{
-    color: white;
-}
 
-.navigation .links{
-    color: white;
-    text-decoration: none;
-}
-
-.menu{
+.navbar ul li{
     display: inline;
-    padding: 0rem 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background-color: aqua;
 }
