@@ -1,42 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-:root{
---primary-color:#F72D00;
+:root {
+    --primary-color: #F72D00;
 }
 
-/*Navbar*/
+
+/*Navbar Section*/
 
 
-.navbar{
+.navbar {
     background-color: var(--primary-color);
     display: flex;
     justify-content: center;
-    
-}
-ul{
-    list-style: none;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
-.navbar ul li{
+.navbar ul {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li {
     display: inline;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 18px;
+    padding: 8px 25px;
     font-weight: bold;
+    transition: all .5s ease;
 }
 
-.navbar a:hover{
-    background-color: aqua;
+.navbar a:hover {
+    background-color: rgb(62, 4, 199);
+    box-shadow: 0 0 10px white;
+
+}
+
+
+/*Home Section*/
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("images/img3.jpg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
 }
