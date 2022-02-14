@@ -249,6 +249,9 @@ h5{
     line-height: 27px;
     margin-bottom: 25px;
 }
+.pbtn{
+    text-align: center;
+}
 
 .box-card .button{
     background-color: var(--primary-color);
