@@ -56,10 +56,14 @@ span {
     text-transform: capitalize;
 }
 
-.navbar a:hover {
+.navbar .links:hover {
     color: var(--primary-color);
     transition: .4s;
+}
 
+.navbar .hire-btn a:hover {
+    color: white;
+    transition: .4s;
 }
 
 .hire-btn {
@@ -75,6 +79,7 @@ span {
 
 .hire-btn:hover {
     transform: scale(1.2);
+    color: white;
 }
 
 
