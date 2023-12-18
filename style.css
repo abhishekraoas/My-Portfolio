@@ -18,9 +18,9 @@
 .header-section {
     height: 100vh;
     width: 100%;
-    background-image: url(images/abhi2.svg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(images/bg.jpg);
+    background-size: contain;
+    background-position: right;
 }
 
 .navbar {
