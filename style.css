@@ -14,7 +14,11 @@
 
 /*Navbar Section*/
 
-
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
 .header-section {
     height: 100vh;
     width: 100%;
@@ -375,4 +379,26 @@ footer p:nth-child(2){
     bottom: 35px;
     font-size: 14px;
 }
+
+
+/* For Responsive */
+
+/* @media screen and (max-width: 768px) {
+    .nav-toggle{
+        display: block;
+    }
+}  */
+    
+@media  (max-width: 1150px){
+    body{
+        width: fit-content;
+    }
+
+    .header-section{
+        background-size: auto;
+    }
+}
+
+
+/* Skill Design */
 
