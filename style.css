@@ -24,7 +24,7 @@
     width: 100%;
     background-image: url(images/bg3.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -396,6 +396,14 @@ footer p:nth-child(2){
 
     .header-section{
         background-size: cover;
+        background-attachment: scroll;
+    }
+
+    .reach-me {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
     }
 }
 
