@@ -395,7 +395,7 @@ footer p:nth-child(2){
     }
 
     .header-section{
-        background-size: auto;
+        background-size: cover;
     }
 }
 
